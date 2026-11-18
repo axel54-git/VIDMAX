@@ -160,7 +160,7 @@ const MainContent: React.FC = () => {
         <SeriesDetailModal />
         <SeriesPlayerModal />
         <MovieDetailModal />
-        <PopupAdModal />
+        {activeTab !== 'home' && <PopupAdModal />}
         <AdminPanelModal />
         <ApkUpdateModal />
         <InstallPwaModal />

@@ -3,10 +3,14 @@ import { useMovieContext } from '../context/MovieContext';
 import { X, ExternalLink } from 'lucide-react';
 
 export const PopupAdModal: React.FC = () => {
-  const { settings, openInAppBrowser } = useMovieContext();
+  const { settings, activeTab } = useMovieContext();
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
+    if (activeTab === 'home') {
+      setIsOpen(false);
+      return;
+    }
     if (settings.popupAd?.active && (settings.popupAd.imageUrl || settings.popupAd.title)) {
       // Show once per session after short delay
       const hasShown = sessionStorage.getItem('popup_ad_shown');
@@ -18,9 +22,9 @@ export const PopupAdModal: React.FC = () => {
         return () => clearTimeout(timer);
       }
     }
-  }, [settings.popupAd]);
+  }, [settings.popupAd, activeTab]);
 
-  if (!isOpen || !settings.popupAd?.active) return null;
+  if (activeTab === 'home' || !isOpen || !settings.popupAd?.active) return null;
 
   const { title, imageUrl, targetUrl, buttonText } = settings.popupAd;
 

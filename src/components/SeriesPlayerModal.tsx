@@ -41,6 +41,10 @@ export const SeriesPlayerModal: React.FC = () => {
 
     return () => {
       window.open = originalOpen;
+      const existingScript = document.getElementById(scriptId);
+      if (existingScript) {
+        existingScript.remove();
+      }
     };
   }, [selectedEpisode, settings?.seriesPlayerAd?.popupScriptCode]);
 

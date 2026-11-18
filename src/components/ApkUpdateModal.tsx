@@ -5,11 +5,11 @@ import { recordApkDownload } from '../utils/deviceTracker';
 import { CURRENT_CLIENT_VERSION } from '../types';
 
 export const ApkUpdateModal: React.FC = () => {
-  const { apkUpdateModalOpen, setApkUpdateModalOpen, setInstallPwaModalOpen, settings } = useMovieContext();
+  const { apkUpdateModalOpen, setApkUpdateModalOpen, settings, activeTab } = useMovieContext();
   const [forceDismissed, setForceDismissed] = useState(false);
 
-  // If forced by admin in Firebase, show unless emergency dismissed in UI
-  const isForced = Boolean(settings.forceApkUpdate && !forceDismissed);
+  // Never auto-show popup notification on homepage unless manually triggered by user
+  const isForced = Boolean(settings.forceApkUpdate && !forceDismissed && activeTab !== 'home');
   const isOpen = apkUpdateModalOpen || isForced;
 
   if (!isOpen) return null;
