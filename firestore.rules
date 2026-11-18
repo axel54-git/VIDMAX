@@ -1,0 +1,97 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper Functions
+    function isValidId(id) {
+      return id is string && id.size() > 0 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    // Verified Admin Guard: checks Google token or registered admin document
+    function isAdmin() {
+      return isSignedIn() && (
+        (request.auth.token.email == 'nishatmatubbor56@gmail.com' && request.auth.token.email_verified == true)
+        || exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+      );
+    }
+
+    // Admin authorization registry
+    match /admins/{adminId} {
+      allow read, write: if isAdmin();
+    }
+
+    // Movies Collection: Public read; Admin Panel create, update, delete
+    match /movies/{movieId} {
+      allow read: if true;
+      allow create, update: if isValidId(movieId) && incoming().title is string;
+      allow delete: if isValidId(movieId);
+    }
+
+    // Video Series & Episodes: Public read; Admin Panel create, update, delete
+    match /series/{seriesId} {
+      allow read: if true;
+      allow create, update: if isValidId(seriesId) && incoming().title is string;
+      allow delete: if isValidId(seriesId);
+    }
+
+    // App Shortcuts / Apps Hub: Public read; Admin Panel create, update, delete
+    match /app_shortcuts/{shortcutId} {
+      allow read: if true;
+      allow create, update: if isValidId(shortcutId) && incoming().title is string;
+      allow delete: if isValidId(shortcutId);
+    }
+
+    // Global Site Settings: Public real-time read; Admin Panel create and update enabled, delete strictly blocked
+    match /site_settings/{settingId} {
+      allow read: if true;
+      allow create, update: if isValidId(settingId);
+      allow delete: if isAdmin();
+    }
+
+    // System Announcements
+    match /announcements/{announcementId} {
+      allow read: if true;
+      allow write: if isValidId(announcementId);
+    }
+
+    // Sponsored Banners
+    match /sponsored/{bannerId} {
+      allow read: if true;
+      allow write: if isValidId(bannerId);
+    }
+
+    // Music Tracks
+    match /music_tracks/{trackId} {
+      allow read: if true;
+      allow write: if isValidId(trackId);
+    }
+
+    // APK Analytics Summary: Public read; atomic counter updates
+    match /apk_analytics/{docId} {
+      allow read: if true;
+      allow create, update: if isValidId(docId);
+      allow delete: if isAdmin();
+    }
+
+    // Installed Devices Tracking: Public registration and telemetry
+    match /installed_devices/{deviceId} {
+      allow read, write: if isValidId(deviceId);
+    }
+
+    // Diagnostics / Connection health probe
+    match /test/{testId} {
+      allow read, write: if true;
+    }
+  }
+}

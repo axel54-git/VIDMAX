@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">FlickCove BD</string>
+    <string name="title_activity_main">FlickCove BD</string>
+    <string name="package_name">com.flickcove.stream</string>
+    <string name="custom_url_scheme">com.flickcove.stream</string>
+</resources>

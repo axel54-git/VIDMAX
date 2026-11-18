@@ -1,0 +1,127 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 1. GLOBAL SAFETY NET: Default-deny catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper Functions
+    function isValidId(id) {
+      return id is string && id.size() > 0 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    // Verified Admin Guard: checks Google token or registered admin document
+    function isAdmin() {
+      return isSignedIn() && (
+        (request.auth.token.email == 'nishatmatubbor56@gmail.com' && request.auth.token.email_verified == true)
+        || exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+      );
+    }
+
+    // Admin authorization registry
+    match /admins/{adminId} {
+      allow read, write: if isAdmin();
+    }
+
+    // Movies Collection: Public read; strictly admin-only create, update, delete
+    match /movies/{movieId} {
+      allow read: if true;
+      allow create, update: if isAdmin() && isValidId(movieId) &&
+        incoming().title is string && incoming().title.size() <= 300 &&
+        incoming().category is string && incoming().category.size() <= 100;
+      allow delete: if isAdmin() && isValidId(movieId);
+    }
+
+    // Video Series & Episodes: Public read; strictly admin-only create, update, delete
+    match /series/{seriesId} {
+      allow read: if true;
+      allow create, update: if isAdmin() && isValidId(seriesId) &&
+        incoming().title is string && incoming().title.size() <= 300 &&
+        incoming().category is string && incoming().category.size() <= 100;
+      allow delete: if isAdmin() && isValidId(seriesId);
+    }
+
+    // App Shortcuts / Apps Hub: Public read; strictly admin-only create, update, delete
+    match /app_shortcuts/{shortcutId} {
+      allow read: if true;
+      allow create, update: if isAdmin() && isValidId(shortcutId) &&
+        incoming().title is string && incoming().title.size() <= 200;
+      allow delete: if isAdmin() && isValidId(shortcutId);
+    }
+
+    // Global Site Settings: Public read; strictly admin-only write
+    match /site_settings/{settingId} {
+      allow read: if true;
+      allow write: if isAdmin() && isValidId(settingId);
+    }
+
+    // System Announcements
+    match /announcements/{announcementId} {
+      allow read: if true;
+      allow write: if isAdmin() && isValidId(announcementId);
+    }
+
+    // Sponsored Banners
+    match /sponsored/{bannerId} {
+      allow read: if true;
+      allow write: if isAdmin() && isValidId(bannerId);
+    }
+
+    // Music Tracks
+    match /music_tracks/{trackId} {
+      allow read: if true;
+      allow write: if isAdmin() && isValidId(trackId);
+    }
+
+    // APK Analytics Summary: Public read; safe atomic field increments only
+    match /apk_analytics/{docId} {
+      allow read: if true;
+      allow create, delete: if isAdmin() && isValidId(docId);
+      allow update: if isValidId(docId) && (
+        isAdmin() ||
+        (
+          docId == 'summary' &&
+          incoming().diff(existing()).affectedKeys().hasOnly(['totalDownloads', 'totalDevices', 'activeDevices', 'lastUpdated'])
+        )
+      );
+    }
+
+    // Installed Devices Tracking: Private read (Admin only to prevent user telemetry scraping);
+    // Secure public self-registration with strict schema validation
+    function isValidDeviceRecord(data) {
+      return data.deviceId is string && data.deviceId.size() <= 128 &&
+             (!('deviceModel' in data) || (data.deviceModel is string && data.deviceModel.size() <= 100)) &&
+             (!('platform' in data) || (data.platform is string && data.platform.size() <= 50)) &&
+             (!('appVersion' in data) || (data.appVersion is string && data.appVersion.size() <= 50)) &&
+             (!('isApk' in data) || data.isApk is bool) &&
+             (!('totalOpens' in data) || data.totalOpens is number) &&
+             (!('installedAt' in data) || (data.installedAt is string && data.installedAt.size() <= 60)) &&
+             (!('lastSeen' in data) || (data.lastSeen is string && data.lastSeen.size() <= 60));
+    }
+
+    match /installed_devices/{deviceId} {
+      allow read: if isAdmin();
+      allow create, update: if isValidId(deviceId) && isValidDeviceRecord(incoming());
+      allow delete: if isAdmin();
+    }
+
+    // Diagnostics / Connection health probe
+    match /test/{testId} {
+      allow read: if true;
+      allow write: if isAdmin() || (testId == 'connection');
+    }
+  }
+}

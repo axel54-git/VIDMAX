@@ -1,0 +1,941 @@
+{
+  "movies": [
+    {
+      "id": "churuli-2021",
+      "titleColor": "green",
+      "fileSizes": {
+        "p1080": "1.9 GB",
+        "p480": "450 MB",
+        "p720": "980 MB"
+      },
+      "driveUrl": "https://drive.google.com/uc?export=download&id=ChuruliHindi",
+      "releaseDate": "2021",
+      "title": "Churuli (2021) (Hindi + Malayalam) Dual Audio UnCut South Movie HD ESub",
+      "poster": "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=600&auto=format&fit=crop&q=80",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=500&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=500&auto=format&fit=crop&q=80"
+      ],
+      "language": "Hindi + Malayalam",
+      "badgeColor": "green",
+      "quality": "480p 720p 1080p [HD]",
+      "badgeLabel": "South Hindi Dubbed Movie",
+      "audio": "Hindi + Malayalam Dual Audio",
+      "year": "2021",
+      "genres": [
+        "Mystery",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "fastDownloadUrl": "https://fastserver.flickcove.top/download/churuli.mkv",
+      "teraboxUrl": "https://terabox.com/s/1Churuli-Dual-Hindi-Flickcove",
+      "category": "South Hindi Dubbed",
+      "rating": "8.4",
+      "starcast": "Vinay Forrt, Chemban Vinod Jose, Joju George, Soubin Shahir, Jaffer Idukki",
+      "createdAt": "2026-11-02T08:30:28.353Z",
+      "description": "Two undercover cops venture deep into an eerie dense forest village to nab a fugitive criminal named Mayiladumparambil Joy, but find themselves trapped in a mysterious time-looping labyrinth.",
+      "featured": true,
+      "duration": "1h 55min",
+      "views": 38900
+    },
+    {
+      "id": "hitler-2024",
+      "description": "An innocent engineer is hunted by an undercover cop when a series of vigilante robberies target corrupted political election black-money.",
+      "language": "Hindi + Tamil",
+      "title": "Hitler (2024) (Hindi + Tamil) Dual Audio UnCut South Movie HD ESub",
+      "poster": "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=600&auto=format&fit=crop&q=80",
+      "year": "2024",
+      "fastDownloadUrl": "https://fastserver.flickcove.top/download/hitler.mkv",
+      "teraboxUrl": "https://terabox.com/s/1Hitler-Dual-Hindi-Flickcove",
+      "driveUrl": "https://drive.google.com/uc?export=download&id=Hitler2024Hindi",
+      "createdAt": "2026-11-02T01:30:28.353Z",
+      "audio": "Hindi + Tamil Dual Audio",
+      "category": "South Hindi Dubbed",
+      "starcast": "Vijay Antony, Riya Suman, Gautham Vasudev Menon",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "screenshots": [
+        "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=500&auto=format&fit=crop&q=80"
+      ],
+      "duration": "2h 20min",
+      "featured": false,
+      "badgeColor": "blue",
+      "fileSizes": {
+        "p720": "1.2 GB",
+        "p1080": "2.3 GB",
+        "p480": "500 MB"
+      },
+      "badgeLabel": "South Hindi Dubbed Movie",
+      "rating": "8.0",
+      "titleColor": "blue",
+      "releaseDate": "2024",
+      "quality": "480p 720p 1080p [HD]",
+      "views": 48900
+    },
+    {
+      "id": "ishq-not-a-love-story-2021",
+      "views": 35000,
+      "quality": "480p 720p 1080p [HD]",
+      "rating": "7.8",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=500&auto=format&fit=crop&q=80"
+      ],
+      "releaseDate": "2021",
+      "teraboxUrl": "https://terabox.com/s/1Ishq-Dual-Hindi-Flickcove",
+      "featured": false,
+      "duration": "1h 58min",
+      "audio": "Hindi + Telugu Dual Audio",
+      "starcast": "Teja Sajja, Priya Prakash Varrier, Ravindra Vijay",
+      "createdAt": "2026-11-02T02:30:28.353Z",
+      "genres": [
+        "Thriller",
+        "Suspense"
+      ],
+      "category": "South Hindi Dubbed",
+      "badgeLabel": "South Hindi Dubbed Movie",
+      "badgeColor": "orange",
+      "description": "A couple goes on a romantic car drive at night, only to face moral policing by two strangers that spirals into psychological vengeance.",
+      "driveUrl": "https://drive.google.com/uc?export=download&id=IshqTeluguHindi",
+      "year": "2021",
+      "fileSizes": {
+        "p1080": "2.0 GB",
+        "p480": "450 MB",
+        "p720": "1.1 GB"
+      },
+      "poster": "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=600&auto=format&fit=crop&q=80",
+      "title": "Ishq - Not a Love Story (2021) (Hindi + Telugu) Dual Audio UnCut South Movie HD ESub",
+      "language": "Hindi + Telugu",
+      "titleColor": "orange",
+      "fastDownloadUrl": "https://fastserver.flickcove.top/download/ishq.mkv"
+    },
+    {
+      "id": "little-thomas-2026",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=500&auto=format&fit=crop&q=80"
+      ],
+      "year": "2026",
+      "fastDownloadUrl": "https://fastserver.flickcove.top/download/little-thomas.mkv",
+      "audio": "Hindi Clean HQCam Audio",
+      "genres": [
+        "Comedy",
+        "Family",
+        "Drama"
+      ],
+      "driveUrl": "https://drive.google.com/uc?export=download&id=LittleThomas",
+      "badgeColor": "green",
+      "badgeLabel": "Bollywood Hindi Movies",
+      "language": "Hindi",
+      "titleColor": "green",
+      "quality": "480p 720p 1080p [HQCam]",
+      "views": 29400,
+      "rating": "8.1",
+      "fileSizes": {
+        "p720": "900 MB",
+        "p1080": "1.8 GB",
+        "p480": "400 MB"
+      },
+      "releaseDate": "2026",
+      "title": "Little Thomas (2026) Bollywood Hindi Movie HQCam",
+      "description": "Set in 1990s Mumbai, an only child named Thomas will go to extraordinary and hilarious lengths to persuade his parents to give him a baby brother.",
+      "createdAt": "2026-11-02T06:30:28.353Z",
+      "starcast": "Gulshan Devaiah, Rasika Dugal, Hridansh Parekh",
+      "category": "Bollywood Hindi",
+      "teraboxUrl": "https://terabox.com/s/1LittleThomas-Hindi-Flickcove",
+      "featured": false,
+      "duration": "1h 48min",
+      "poster": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "movie_rewind-2024-hindi-telugu-dual-audio-uncu_1793612438467",
+      "fastDownloadUrl": "https://fffast.filesdl.in/zdownload.php?id=hm4s3ZfeLJMmwnJQuThcFQcNqmHHYptuc48ADq4oDYQ9Q5w6gYoPXTDa7xyKauXrfDXmoZcY-GNhRrBu4plmNfSR-3b4aaVR3FVGE6N4_n-AjuqnvBKi_2GbC_HirRaqdDRtGph3K15_jRHwSKVmmCRdFBj9DtRg1Q318_eZy4qOQFlwgkaTbMfzIJf60b_PjVcMrCs7lehNqxNDgN8HjD2F2dIcc0f3T3jrFnIaG47a-yFK3QTqflly2KZVhN_2xTyEn12GVgBzRbXKnUHsxs5MuhtQYOtbov9UnXNJb_q3wQ&token=MTc5NDI4OTkwMi5iOGFjYmEyOTZmZWViNzljMDZiN2NjNmE1NTRhZGQyZmJlMmM0MTBhZTIzZWZhOTU1MWI3NTEyNTA5NmM4YjMy",
+      "quality": "480p [HD]",
+      "views": 25000,
+      "badgeLabel": "South Hindi Dubbed Movie",
+      "poster": "https://i.ibb.co/zh7TPRss/435398f94bb8.jpg",
+      "badgeColor": "green",
+      "driveUrl": "https://fffast.filesdl.in/zdownload.php?id=hm4s3ZfeLJMmwnJQuThcFQcNqmHHYptuc48ADq4oDYQ9Q5w6gYoPXTDa7xyKauXrfDXmoZcY-GNhRrBu4plmNfSR-3b4aaVR3FVGE6N4_n-AjuqnvBKi_2GbC_HirRaqdDRtGph3K15_jRHwSKVmmCRdFBj9DtRg1Q318_eZy4qOQFlwgkaTbMfzIJf60b_PjVcMrCs7lehNqxNDgN8HjD2F2dIcc0f3T3jrFnIaG47a-yFK3QTqflly2KZVhN_2xTyEn12GVgBzRbXKnUHsxs5MuhtQYOtbov9UnXNJb_q3wQ&token=MTc5NDI4OTkwMi5iOGFjYmEyOTZmZWViNzljMDZiN2NjNmE1NTRhZGQyZmJlMmM0MTBhZTIzZWZhOTU1MWI3NTEyNTA5NmM4YjMy",
+      "rating": "8.5",
+      "titleColor": "green",
+      "category": "Action",
+      "screenshots": [
+        "https://i.ibb.co/0y17sTBw/7ed5293c7248.jpg"
+      ],
+      "audio": "Hindi Dubbed",
+      "downloadUrl": "https://fffast.filesdl.in/zdownload.php?id=hm4s3ZfeLJMmwnJQuThcFQcNqmHHYptuc48ADq4oDYQ9Q5w6gYoPXTDa7xyKauXrfDXmoZcY-GNhRrBu4plmNfSR-3b4aaVR3FVGE6N4_n-AjuqnvBKi_2GbC_HirRaqdDRtGph3K15_jRHwSKVmmCRdFBj9DtRg1Q318_eZy4qOQFlwgkaTbMfzIJf60b_PjVcMrCs7lehNqxNDgN8HjD2F2dIcc0f3T3jrFnIaG47a-yFK3QTqflly2KZVhN_2xTyEn12GVgBzRbXKnUHsxs5MuhtQYOtbov9UnXNJb_q3wQ&token=MTc5NDI4OTkwMi5iOGFjYmEyOTZmZWViNzljMDZiN2NjNmE1NTRhZGQyZmJlMmM0MTBhZTIzZWZhOTU1MWI3NTEyNTA5NmM4YjMy",
+      "title": "Rewind (2024) (Hindi + Telugu) Dual Audio UnCut South Movie HD ESub",
+      "duration": "2",
+      "teraboxUrl": "https://fffast.filesdl.in/zdownload.php?id=hm4s3ZfeLJMmwnJQuThcFQcNqmHHYptuc48ADq4oDYQ9Q5w6gYoPXTDa7xyKauXrfDXmoZcY-GNhRrBu4plmNfSR-3b4aaVR3FVGE6N4_n-AjuqnvBKi_2GbC_HirRaqdDRtGph3K15_jRHwSKVmmCRdFBj9DtRg1Q318_eZy4qOQFlwgkaTbMfzIJf60b_PjVcMrCs7lehNqxNDgN8HjD2F2dIcc0f3T3jrFnIaG47a-yFK3QTqflly2KZVhN_2xTyEn12GVgBzRbXKnUHsxs5MuhtQYOtbov9UnXNJb_q3wQ&token=MTc5NDI4OTkwMi5iOGFjYmEyOTZmZWViNzljMDZiN2NjNmE1NTRhZGQyZmJlMmM0MTBhZTIzZWZhOTU1MWI3NTEyNTA5NmM4YjMy",
+      "description": " It's a love at first sight for Karthik with Shanti but when he decides to propose,",
+      "year": "2024",
+      "createdAt": "2026-11-02T09:40:38.467Z",
+      "genres": [
+        "Action",
+        "Drama"
+      ]
+    },
+    {
+      "id": "ohm-shanthi-oshaana-2014",
+      "badgeColor": "blue",
+      "badgeLabel": "South Hindi Dubbed Movie",
+      "titleColor": "blue",
+      "starcast": "Nazriya Nazim, Nivin Pauly, Renji Panicker, Aju Varghese",
+      "fastDownloadUrl": "https://fastserver.flickcove.top/download/ohm-shanthi.mkv",
+      "category": "South Hindi Dubbed",
+      "fileSizes": {
+        "p480": "500 MB",
+        "p1080": "2.1 GB",
+        "p720": "1.2 GB"
+      },
+      "title": "Ohm Shanthi Oshaana (2014) (Hindi + Malayalam) Dual Audio UnCut South Movie HD ESub",
+      "poster": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&auto=format&fit=crop&q=80",
+      "featured": false,
+      "duration": "2h 16min",
+      "description": "Spirited high school girl Pooja falls in love with Giri, an older martial artist and farmer, and vows to win his heart over the span of a decade.",
+      "quality": "480p 720p 1080p [HD]",
+      "createdAt": "2026-11-02T04:30:28.353Z",
+      "releaseDate": "2014",
+      "views": 64000,
+      "genres": [
+        "Romantic Comedy",
+        "Drama"
+      ],
+      "driveUrl": "https://drive.google.com/uc?export=download&id=OhmShanthi",
+      "language": "Hindi + Malayalam",
+      "audio": "Hindi + Malayalam Dual Audio",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=500&auto=format&fit=crop&q=80"
+      ],
+      "year": "2014",
+      "teraboxUrl": "https://terabox.com/s/1OhmShanthi-Dual-Hindi-Flickcove",
+      "rating": "8.3"
+    },
+    {
+      "id": "pehla-pyaar-doosri-baar-2026",
+      "starcast": "Karan Kundrra, Tejasswi Prakash",
+      "category": "Bollywood Hindi",
+      "quality": "480p 720p 1080p [HQCam]",
+      "year": "2026",
+      "description": "Can second chances heal broken promises? An emotional exploration of modern love, heartbreak, and unexpected reunions.",
+      "featured": false,
+      "duration": "2h 05min",
+      "teraboxUrl": "https://terabox.com/s/1PehlaPyaar-Hindi-Flickcove",
+      "fastDownloadUrl": "https://fastserver.flickcove.top/download/pehla-pyaar.mkv",
+      "title": "Pehla Pyaar Doosri Baar (2026) Bollywood Hindi Movie HQCam",
+      "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=600&auto=format&fit=crop&q=80",
+      "fileSizes": {
+        "p480": "460 MB",
+        "p1080": "1.9 GB",
+        "p720": "1.0 GB"
+      },
+      "titleColor": "blue",
+      "language": "Hindi",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=500&auto=format&fit=crop&q=80"
+      ],
+      "views": 41000,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "createdAt": "2026-11-02T03:30:28.353Z",
+      "audio": "Hindi Clean HQ Audio",
+      "badgeColor": "blue",
+      "badgeLabel": "Bollywood Hindi Movies",
+      "releaseDate": "2026",
+      "driveUrl": "https://drive.google.com/uc?export=download&id=PehlaPyaar",
+      "rating": "8.0"
+    },
+    {
+      "id": "tu-hai-meri-kiran-2026",
+      "views": 31200,
+      "titleColor": "blue",
+      "rating": "7.9",
+      "fileSizes": {
+        "p1080": "2.0 GB",
+        "p480": "480 MB",
+        "p720": "1.1 GB"
+      },
+      "screenshots": [
+        "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=500&auto=format&fit=crop&q=80"
+      ],
+      "badgeColor": "blue",
+      "releaseDate": "2026",
+      "category": "Bollywood Hindi",
+      "badgeLabel": "Bollywood Hindi Movies",
+      "starcast": "Abhimanyu Dassani, Shanaya Kapoor",
+      "audio": "Hindi Clean HQ Audio",
+      "featured": false,
+      "duration": "2h 15min",
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "quality": "480p 720p 1080p [HQCam]",
+      "year": "2026",
+      "description": "A heart-touching romantic journey of two childhood friends who cross paths again in adulthood and redefine love against all odds.",
+      "teraboxUrl": "https://terabox.com/s/1TuHaiMeriKiran-Flickcove",
+      "driveUrl": "https://drive.google.com/uc?export=download&id=TuHaiMeriKiran",
+      "poster": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=600&auto=format&fit=crop&q=80",
+      "language": "Hindi",
+      "title": "Tu Hai Meri Kiran (2026) Bollywood Hindi Movie HQCam",
+      "createdAt": "2026-11-02T05:30:28.353Z",
+      "fastDownloadUrl": "https://fastserver.flickcove.top/download/kiran.mkv"
+    },
+    {
+      "id": "udaala-2025",
+      "starcast": "Vadiraj Babaladi, Dayanand Beeligi, Yogaraj Bhat, Bala Rajwadi, Praveen Kumar Gasti",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "category": "South Hindi Dubbed",
+      "description": "Set in a vibrant cultural backdrop, a young lovers fight against societal bullies takes many twists—yet can the wisdom of the city's monuments turn conflict into love, respect, and harmony?",
+      "createdAt": "2026-11-02T09:30:28.353Z",
+      "duration": "2h 40min",
+      "featured": true,
+      "views": 45200,
+      "audio": "Hindi + Kannada Dual Audio",
+      "teraboxUrl": "https://terabox.com/s/1Udaala-Dual-Hindi-Flickcove",
+      "fastDownloadUrl": "https://fastserver.flickcove.top/download/udaala-2025.mkv",
+      "rating": "8.8",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=500&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=500&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=500&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=500&auto=format&fit=crop&q=80"
+      ],
+      "language": "Hindi + Kannada",
+      "badgeColor": "red",
+      "badgeLabel": "South Hindi Dubbed Movie",
+      "poster": "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=600&auto=format&fit=crop&q=80",
+      "quality": "480p 720p 1080p [HD]",
+      "year": "2025",
+      "streamUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "titleColor": "red",
+      "fileSizes": {
+        "p480": "570 MB",
+        "p720": "1.4 GB",
+        "p1080": "2.2 GB"
+      },
+      "releaseDate": "2025",
+      "driveUrl": "https://drive.google.com/uc?export=download&id=Udaala2025Hindi",
+      "title": "Udaala (2025) (Hindi + Kannada) Dual Audio UnCut South Movie HD ESub"
+    },
+    {
+      "id": "verity-2026",
+      "language": "Hindi + English",
+      "releaseDate": "2026",
+      "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=600&auto=format&fit=crop&q=80",
+      "fastDownloadUrl": "https://fastserver.flickcove.top/download/verity.mkv",
+      "titleColor": "red",
+      "title": "Verity (2026) (Hindi + English) Dual Audio Hollywood Movie HD ESub",
+      "badgeColor": "red",
+      "badgeLabel": "Hollywood Hindi Movies",
+      "year": "2026",
+      "screenshots": [
+        "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=500&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=500&auto=format&fit=crop&q=80"
+      ],
+      "driveUrl": "https://drive.google.com/uc?export=download&id=VerityHindi",
+      "createdAt": "2026-11-02T07:30:28.353Z",
+      "starcast": "Anne Hathaway, Dakota Johnson, Jeremy Allen White",
+      "teraboxUrl": "https://terabox.com/s/1Verity-Dual-Hindi-Flickcove",
+      "audio": "Hindi + English Dual Audio",
+      "category": "Hollywood Hindi",
+      "rating": "8.7",
+      "duration": "2h 10min",
+      "featured": true,
+      "fileSizes": {
+        "p720": "1.2 GB",
+        "p1080": "2.5 GB",
+        "p480": "500 MB"
+      },
+      "description": "A struggling author accepts an offer to finish the remaining books of a successful series after the original author is injured, only to uncover shocking bone-chilling manuscripts in her mansion.",
+      "quality": "480p 720p 1080p [HD]",
+      "views": 52100,
+      "genres": [
+        "Psychological",
+        "Thriller",
+        "Mystery"
+      ]
+    }
+  ],
+  "series": [
+    {
+      "id": "series-hsc-ict",
+      "createdAt": "2026-11-05T08:20:00.162Z",
+      "quality": "Full HD 1080p",
+      "category": "Drama",
+      "episodes": [
+        {
+          "youtubeUrl": "https://youtu.be/xB8HiMlFE4A?feature=shared",
+          "episodeNumber": 1,
+          "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
+          "id": "ep-hsc-3",
+          "duration": "34:20",
+          "badge": "1 পর্ব",
+          "youtubeId": "xB8HiMlFE4A",
+          "title": "Shaidai  [Eng Sub]  Hindi love story movie",
+          "description": "প্রোগ্রামিং ভাষার প্রাথমিক ধারণা ও অনুবাদক প্রোগ্রাম আলোচনা।"
+        },
+        {
+          "title": "পর্ব 2: Shaidai  [Eng Sub]  Hindi love story movie",
+          "id": "ep-1793943823484-2",
+          "duration": "2h 15min",
+          "youtubeId": "lV8ec7gjxtk",
+          "youtubeUrl": "https://youtu.be/lV8ec7gjxtk?feature=shared",
+          "badge": "পার্ট 2 • ফুল এইচডি",
+          "thumbnail": "https://img.youtube.com/vi/lV8ec7gjxtk/hqdefault.jpg",
+          "episodeNumber": 2,
+          "description": ""
+        },
+        {
+          "badge": "পার্ট 3 • ফুল এইচডি",
+          "description": "",
+          "youtubeUrl": "https://youtu.be/IaqNQm98rVY?feature=shared",
+          "thumbnail": "https://img.youtube.com/vi/IaqNQm98rVY/hqdefault.jpg",
+          "id": "ep-1793943876760-3",
+          "episodeNumber": 3,
+          "title": "পর্ব 3: Shaidai  [Eng Sub]  Hindi love story movie",
+          "youtubeId": "IaqNQm98rVY",
+          "duration": "2h 15min"
+        },
+        {
+          "youtubeId": "apyMxfbAnMU",
+          "title": "পর্ব 4: Shaidai  [Eng Sub]  Hindi love story movie",
+          "description": "",
+          "duration": "2h 15min",
+          "episodeNumber": 4,
+          "youtubeUrl": "https://youtu.be/apyMxfbAnMU?feature=shared",
+          "badge": "পার্ট 4 • ফুল এইচডি",
+          "id": "ep-1793943890086-4",
+          "thumbnail": "https://img.youtube.com/vi/apyMxfbAnMU/hqdefault.jpg"
+        },
+        {
+          "badge": "পার্ট 5 • ফুল এইচডি",
+          "youtubeId": "bM7kFWWIYag",
+          "thumbnail": "https://img.youtube.com/vi/bM7kFWWIYag/hqdefault.jpg",
+          "episodeNumber": 5,
+          "id": "ep-1793943891577-5",
+          "title": "পর্ব 5: Shaidai  [Eng Sub]  Hindi love story movie",
+          "duration": "2h 15min",
+          "description": "",
+          "youtubeUrl": "https://youtu.be/bM7kFWWIYag?feature=shared"
+        },
+        {
+          "duration": "2h 15min",
+          "episodeNumber": 6,
+          "id": "ep-1793943892781-6",
+          "description": "",
+          "badge": "পার্ট 6 • ফুল এইচডি",
+          "thumbnail": "https://img.youtube.com/vi/KgcXEbeVFB0/hqdefault.jpg",
+          "youtubeId": "KgcXEbeVFB0",
+          "youtubeUrl": "https://youtu.be/KgcXEbeVFB0?feature=shared",
+          "title": "পর্ব 6: Shaidai  [Eng Sub]  Hindi love story movie"
+        },
+        {
+          "duration": "2h 15min",
+          "title": "পর্ব 7: Shaidai  [Eng Sub]  Hindi love story movie",
+          "youtubeId": "NXcw5mUE1_w",
+          "id": "ep-1793943893902-7",
+          "description": "",
+          "badge": "পার্ট 7 • ফুল এইচডি",
+          "thumbnail": "https://img.youtube.com/vi/NXcw5mUE1_w/hqdefault.jpg",
+          "episodeNumber": 7,
+          "youtubeUrl": "https://youtu.be/NXcw5mUE1_w?feature=shared"
+        },
+        {
+          "youtubeUrl": "https://youtu.be/-OqMLgz3Iwc?feature=shared",
+          "thumbnail": "https://img.youtube.com/vi/-OqMLgz3Iwc/hqdefault.jpg",
+          "duration": "2h 15min",
+          "badge": "পার্ট 8 • ফুল এইচডি",
+          "episodeNumber": 8,
+          "id": "ep-1793943895052-8",
+          "youtubeId": "-OqMLgz3Iwc",
+          "title": "পর্ব 8: Shaidai  [Eng Sub]  Hindi love story movie",
+          "description": ""
+        },
+        {
+          "youtubeId": "2gxImjEvGT8",
+          "episodeNumber": 9,
+          "description": "",
+          "badge": "পার্ট 9 • ফুল এইচডি",
+          "duration": "2h 15min",
+          "youtubeUrl": "https://youtu.be/2gxImjEvGT8?feature=shared",
+          "id": "ep-1793943896133-9",
+          "title": "পর্ব 9: Shaidai  [Eng Sub]  Hindi love story movie",
+          "thumbnail": "https://img.youtube.com/vi/2gxImjEvGT8/hqdefault.jpg"
+        },
+        {
+          "title": "পর্ব 10: Shaidai  [Eng Sub]  Hindi love story movie",
+          "episodeNumber": 10,
+          "youtubeId": "oDwLwUolghs",
+          "description": "",
+          "youtubeUrl": "https://youtu.be/oDwLwUolghs?feature=shared",
+          "duration": "2h 15min",
+          "badge": "পার্ট 10 • ফুল এইচডি",
+          "thumbnail": "https://img.youtube.com/vi/oDwLwUolghs/hqdefault.jpg",
+          "id": "ep-1793943897493-10"
+        },
+        {
+          "youtubeId": "HYkCG-qZjKI",
+          "episodeNumber": 11,
+          "duration": "2h 15min",
+          "title": "পর্ব 11: Shaidai  [Eng Sub]  Hindi love story movie",
+          "id": "ep-1793943940875-11",
+          "description": "",
+          "badge": "পার্ট 11 • ফুল এইচডি",
+          "youtubeUrl": "https://youtu.be/HYkCG-qZjKI?feature=shared",
+          "thumbnail": "https://img.youtube.com/vi/HYkCG-qZjKI/hqdefault.jpg"
+        },
+        {
+          "badge": "পার্ট 12 • ফুল এইচডি",
+          "duration": "2h 15min",
+          "youtubeId": "hpWnyrI1OvQ",
+          "title": "পর্ব 12: Shaidai  [Eng Sub]  Hindi love story movie",
+          "thumbnail": "https://img.youtube.com/vi/hpWnyrI1OvQ/hqdefault.jpg",
+          "description": "",
+          "id": "ep-1793943946075-12",
+          "episodeNumber": 12,
+          "youtubeUrl": "https://youtu.be/hpWnyrI1OvQ?feature=shared"
+        },
+        {
+          "thumbnail": "https://img.youtube.com/vi/56Um6qltFwM/hqdefault.jpg",
+          "youtubeUrl": "https://youtu.be/56Um6qltFwM?feature=shared",
+          "duration": "2h 15min",
+          "badge": "পার্ট 13 • ফুল এইচডি",
+          "description": "",
+          "episodeNumber": 13,
+          "id": "ep-1793943950590-13",
+          "youtubeId": "56Um6qltFwM",
+          "title": "পর্ব 13: Shaidai  [Eng Sub]  Hindi love story movie"
+        },
+        {
+          "youtubeUrl": "https://youtu.be/Ppji6ySy5Ys?feature=shared",
+          "badge": "পার্ট 14 • ফুল এইচডি",
+          "duration": "2h 15min",
+          "episodeNumber": 14,
+          "youtubeId": "Ppji6ySy5Ys",
+          "thumbnail": "https://img.youtube.com/vi/Ppji6ySy5Ys/hqdefault.jpg",
+          "title": "পর্ব 14: Shaidai  [Eng Sub]  Hindi love story movie",
+          "description": "",
+          "id": "ep-1793943955556-14"
+        },
+        {
+          "duration": "2h 15min",
+          "thumbnail": "https://img.youtube.com/vi/z_M66-3OGzs/hqdefault.jpg",
+          "id": "ep-1793943956923-15",
+          "youtubeUrl": "https://youtu.be/z_M66-3OGzs?feature=shared",
+          "description": "",
+          "title": "পর্ব 15: Shaidai  [Eng Sub]  Hindi love story movie",
+          "youtubeId": "z_M66-3OGzs",
+          "episodeNumber": 15,
+          "badge": "পার্ট 15 • ফুল এইচডি"
+        },
+        {
+          "youtubeUrl": "https://youtu.be/7dYH9ssT88M?feature=shared",
+          "title": "পর্ব 16: Shaidai  [Eng Sub]  Hindi love story movie",
+          "episodeNumber": 16,
+          "thumbnail": "https://img.youtube.com/vi/7dYH9ssT88M/hqdefault.jpg",
+          "youtubeId": "7dYH9ssT88M",
+          "description": "",
+          "badge": "পার্ট 16 • ফুল এইচডি",
+          "duration": "2h 15min",
+          "id": "ep-1793943966633-16"
+        },
+        {
+          "thumbnail": "https://img.youtube.com/vi/DQx5UzWPQwk/hqdefault.jpg",
+          "youtubeUrl": "https://youtu.be/DQx5UzWPQwk?feature=shared",
+          "badge": "পার্ট 17 • ফুল এইচডি",
+          "duration": "2h 15min",
+          "episodeNumber": 17,
+          "id": "ep-1793943972039-17",
+          "title": "পর্ব 17: Shaidai  [Eng Sub]  Hindi love story movie",
+          "youtubeId": "DQx5UzWPQwk",
+          "description": ""
+        },
+        {
+          "title": "পর্ব 18: Shaidai  [Eng Sub]  Hindi love story movie",
+          "youtubeUrl": "https://youtu.be/F0-nDpWIMRY?feature=shared",
+          "thumbnail": "https://img.youtube.com/vi/F0-nDpWIMRY/hqdefault.jpg",
+          "episodeNumber": 18,
+          "badge": "পার্ট 18 • ফুল এইচডি",
+          "id": "ep-1793943976912-18",
+          "youtubeId": "F0-nDpWIMRY",
+          "description": "",
+          "duration": "2h 15min"
+        },
+        {
+          "youtubeId": "LXfyB97e8EE",
+          "title": "পর্ব 19: Shaidai  [Eng Sub]  Hindi love story movie",
+          "id": "ep-1793943981402-19",
+          "duration": "2h 15min",
+          "episodeNumber": 19,
+          "description": "",
+          "youtubeUrl": "https://youtu.be/LXfyB97e8EE?feature=shared",
+          "thumbnail": "https://img.youtube.com/vi/LXfyB97e8EE/hqdefault.jpg",
+          "badge": "পার্ট 19 • ফুল এইচডি"
+        },
+        {
+          "id": "ep-1793943988436-20",
+          "description": "",
+          "thumbnail": "https://img.youtube.com/vi/CjWxy1fG0SU/hqdefault.jpg",
+          "title": "পর্ব 20: Shaidai  [Eng Sub]  Hindi love story movie",
+          "youtubeUrl": "https://youtu.be/CjWxy1fG0SU?feature=shared",
+          "episodeNumber": 20,
+          "youtubeId": "CjWxy1fG0SU",
+          "duration": "2h 15min",
+          "badge": "পার্ট 20 • ফুল এইচডি"
+        },
+        {
+          "id": "ep-1793943995447-21",
+          "youtubeId": "ELJr9AeDMew",
+          "title": "পর্ব 21: Shaidai  [Eng Sub]  Hindi love story movie",
+          "episodeNumber": 21,
+          "youtubeUrl": "https://youtu.be/ELJr9AeDMew?feature=shared",
+          "duration": "2h 15min",
+          "badge": "পার্ট 21 • ফুল এইচডি",
+          "description": "",
+          "thumbnail": "https://img.youtube.com/vi/ELJr9AeDMew/hqdefault.jpg"
+        },
+        {
+          "title": "পর্ব 22: Shaidai  [Eng Sub]  Hindi love story movie",
+          "episodeNumber": 22,
+          "youtubeId": "ckJDJF3ETX4",
+          "id": "ep-1793944001416-22",
+          "duration": "2h 15min",
+          "description": "",
+          "badge": "পার্ট 22 • ফুল এইচডি",
+          "thumbnail": "https://img.youtube.com/vi/ckJDJF3ETX4/hqdefault.jpg",
+          "youtubeUrl": "https://youtu.be/ckJDJF3ETX4?feature=shared"
+        },
+        {
+          "youtubeId": "XWnOCXHZAZQ",
+          "id": "ep-1793944008152-23",
+          "badge": "পার্ট 23 • ফুল এইচডি",
+          "description": "",
+          "thumbnail": "https://img.youtube.com/vi/XWnOCXHZAZQ/hqdefault.jpg",
+          "duration": "2h 15min",
+          "youtubeUrl": "https://youtu.be/XWnOCXHZAZQ?feature=shared",
+          "episodeNumber": 23,
+          "title": "পর্ব 23: Shaidai  [Eng Sub]  Hindi love story movie"
+        },
+        {
+          "badge": "পার্ট 24 • ফুল এইচডি",
+          "id": "ep-1793944038999-24",
+          "thumbnail": "https://img.youtube.com/vi/kejJifmNji8/hqdefault.jpg",
+          "description": "",
+          "episodeNumber": 24,
+          "youtubeId": "kejJifmNji8",
+          "title": "পর্ব 24: Shaidai  [Eng Sub]  Hindi love story movie",
+          "youtubeUrl": "https://youtu.be/kejJifmNji8?feature=shared",
+          "duration": "2h 15min"
+        },
+        {
+          "title": "পর্ব 25: Shaidai  [Eng Sub]  Hindi love story movie",
+          "thumbnail": "https://img.youtube.com/vi/yDlaKCtSoIE/hqdefault.jpg",
+          "id": "ep-1793944043382-25",
+          "duration": "2h 15min",
+          "badge": "পার্ট 25 • ফুল এইচডি",
+          "youtubeId": "yDlaKCtSoIE",
+          "episodeNumber": 25,
+          "youtubeUrl": "https://youtu.be/yDlaKCtSoIE?feature=shared",
+          "description": ""
+        },
+        {
+          "title": "পর্ব 26: Shaidai  [Eng Sub]  Hindi love story movie",
+          "duration": "2h 15min",
+          "youtubeId": "7CIRR4GOoyU",
+          "thumbnail": "https://img.youtube.com/vi/7CIRR4GOoyU/hqdefault.jpg",
+          "description": "",
+          "badge": "পার্ট 26 • ফুল এইচডি",
+          "id": "ep-1793944048040-26",
+          "episodeNumber": 26,
+          "youtubeUrl": "https://youtu.be/7CIRR4GOoyU?feature=shared"
+        },
+        {
+          "duration": "2h 15min",
+          "description": "",
+          "id": "ep-1793944052436-27",
+          "title": "পর্ব 27: Shaidai  [Eng Sub]  Hindi love story movie",
+          "episodeNumber": 27,
+          "thumbnail": "https://img.youtube.com/vi/tDY5Au5mJ78/hqdefault.jpg",
+          "youtubeUrl": "https://youtu.be/tDY5Au5mJ78?feature=shared",
+          "youtubeId": "tDY5Au5mJ78",
+          "badge": "পার্ট 27 • ফুল এইচডি"
+        },
+        {
+          "id": "ep-1793944053930-28",
+          "duration": "2h 15min",
+          "thumbnail": "https://img.youtube.com/vi/n8mP0Zp_pw4/hqdefault.jpg",
+          "title": "পর্ব 28: Shaidai  [Eng Sub]  Hindi love story movie",
+          "description": "",
+          "youtubeUrl": "https://youtu.be/n8mP0Zp_pw4?feature=shared",
+          "badge": "পার্ট 28 • ফুল এইচডি",
+          "episodeNumber": 28,
+          "youtubeId": "n8mP0Zp_pw4"
+        },
+        {
+          "badge": "পার্ট 29 • ফুল এইচডি",
+          "description": "",
+          "duration": "2h 15min",
+          "youtubeId": "TdthHoKNBAA",
+          "episodeNumber": 29,
+          "thumbnail": "https://img.youtube.com/vi/TdthHoKNBAA/hqdefault.jpg",
+          "youtubeUrl": "https://youtu.be/TdthHoKNBAA?feature=shared",
+          "title": "পর্ব 29: Shaidai  [Eng Sub]  Hindi love story movie",
+          "id": "ep-1793944055462-29"
+        },
+        {
+          "youtubeId": "wX1mLWoQOdA",
+          "youtubeUrl": "https://youtu.be/wX1mLWoQOdA?feature=shared",
+          "title": "পর্ব 30: Shaidai  [Eng Sub]  Hindi love story movie",
+          "duration": "2h 15min",
+          "episodeNumber": 30,
+          "description": "",
+          "badge": "পার্ট 30 • ফুল এইচডি",
+          "id": "ep-1793944057067-30",
+          "thumbnail": "https://img.youtube.com/vi/wX1mLWoQOdA/hqdefault.jpg"
+        }
+      ],
+      "badgeLabel": "Love history",
+      "description": "এইচএসসি শিক্ষার্থীদের জন্য সম্পূর্ণ আইসিটি ও প্রোগ্রামিং ভাষা চ্যাপ্টারভিত্তিক ভিডিও লেকচার সিরিজ।",
+      "title": "Shaidai  [Eng Sub]  Hindi love story movie",
+      "poster": "/uploads/movie_img_1794042515037_iwofo.jpg",
+      "badgeColor": "blue",
+      "isYouTubeSeries": true,
+      "year": "2026"
+    }
+  ],
+  "app_shortcuts": [
+    {
+      "id": "app-dearmet",
+      "active": true,
+      "order": 9,
+      "url": "https://videodownloader.site",
+      "iconUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-28T16:24:35.421Z",
+      "title": "Dearmet",
+      "section": "Favorite"
+    },
+    {
+      "id": "app-pinterest",
+      "title": "Pinterest",
+      "createdAt": "2026-10-28T16:24:35.421Z",
+      "section": "Favorite",
+      "url": "https://pinterest.com",
+      "active": true,
+      "order": 7,
+      "iconUrl": "https://cdn-icons-png.flaticon.com/512/3536/3536559.png"
+    },
+    {
+      "id": "app-pkpk88",
+      "url": "https://videodownloader.site",
+      "title": "PKPK-88",
+      "section": "Favorite",
+      "order": 8,
+      "createdAt": "2026-10-28T16:24:35.421Z",
+      "iconUrl": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=200&auto=format&fit=crop&q=80",
+      "active": true
+    },
+    {
+      "id": "app-tiktok",
+      "createdAt": "2026-10-28T16:24:35.421Z",
+      "url": "https://tiktok.com",
+      "order": 5,
+      "active": true,
+      "section": "Favorite",
+      "iconUrl": "https://cdn-icons-png.flaticon.com/512/3046/3046121.png",
+      "title": "TikTok"
+    },
+    {
+      "id": "app-vimeo",
+      "iconUrl": "https://cdn-icons-png.flaticon.com/512/3670/3670155.png",
+      "title": "Vimeo",
+      "section": "Favorite",
+      "active": true,
+      "createdAt": "2026-10-28T16:24:35.421Z",
+      "url": "https://vimeo.com",
+      "order": 6
+    },
+    {
+      "id": "app-youtube",
+      "badge": "",
+      "createdAt": "2026-10-28T16:24:35.421Z",
+      "order": 1,
+      "iconUrl": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+      "title": "YouTube",
+      "url": "https://youtube.com",
+      "active": true,
+      "section": "Favorite"
+    },
+    {
+      "id": "game-q880-506",
+      "active": true,
+      "section": "Paisa Kamao",
+      "iconUrl": "https://images.unsplash.com/photo-1511193311914-0346f16efe90?w=200&auto=format&fit=crop&q=80",
+      "order": 10,
+      "url": "https://videodownloader.site",
+      "title": "Q880-506",
+      "createdAt": "2026-10-28T16:24:35.421Z"
+    }
+  ],
+  "site_settings": [
+    {
+      "id": "main",
+      "searchButton2Url": "https://tinyurl.com/2waz6wm2",
+      "quickBox1Active": true,
+      "popupAd": {
+        "active": false,
+        "buttonText": "এখনই দেখুন",
+        "title": "স্পেশাল অফার ও আপডেট",
+        "targetUrl": "https://videodownloader.site",
+        "imageUrl": ""
+      },
+      "showNotice": false,
+      "inFeedSponsored": {
+        "title": "SPONSORED",
+        "url": "#",
+        "tag": "Terabox Cloud",
+        "active": false
+      },
+      "apkVersion": "v2.2.0",
+      "sponsored1": {
+        "tag": "Fast Partner",
+        "url": "#",
+        "active": false,
+        "title": "SPONSORED"
+      },
+      "bannerAd": {
+        "targetUrl": "https://videodownloader.site",
+        "scriptCode": "",
+        "imageUrl": "",
+        "active": false
+      },
+      "homeFeedAd": {
+        "interval": 1,
+        "active": true,
+        "scriptCode": "<script type=\"text/javascript\">\n  atOptions = {\n    'key' : '280410b8223e51dae425f09c7a2f0eb1',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script type=\"text/javascript\" src=\"https://bauval.org/22/280410b8223e51dae425f09c7a2f0eb1\"></script>"
+      },
+      "quickBox2Url": "https://tinyurl.com/2waz6wm2",
+      "contactLabel": "Contact",
+      "quickBox1Url": "https://videodownloader.site",
+      "appsSponsoredAd": {
+        "scriptCode": "<script>\n  atOptions = {\n    'key' : '280410b8223e51dae425f09c7a2f0eb1',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://brijmohan.org/22/280410b8223e51dae425f09c7a2f0eb1\"></script>",
+        "active": true,
+        "title": "MEXC: Buy Bitcoin & Crypto",
+        "iconUrl": "https://images.unsplash.com/photo-1622979135225-d2ba269bc1df?w=120&auto=format&fit=crop&q=80",
+        "buttonText": "INSTALL",
+        "subtitle": "31,000,000 KSKD Up for Grabs",
+        "imageUrl": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=500&auto=format&fit=crop&q=80",
+        "targetUrl": "https://videodownloader.site"
+      },
+      "movieDetailAd": {
+        "targetUrl": "https://videodownloader.site",
+        "imageUrl": "",
+        "active": true,
+        "scriptCode": "<script>\n  atOptions = {\n    'key' : '280410b8223e51dae425f09c7a2f0eb1',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://brijmohan.org/22/280410b8223e51dae425f09c7a2f0eb1\"></script>"
+      },
+      "imgbbApiKey": "e7b8f8955ab261abec0ccdce4c38d9a9",
+      "searchButton1Url": "https://videodownloader.site",
+      "apkUpdateChangelog": "• Fast 480p 720p 1080p download links\n• New details view with screenshots & file info",
+      "headerLogoUrl": "/assets/header-logo.png",
+      "whatsappUrl": "https://t.me/download_apk_app",
+      "searchButton2Text": "বাংলাদেশী ১৮+ ভিডিও",
+      "siteTitle": "FlickCove",
+      "searchRedirectUrl": "https://videodownloader.site",
+      "searchModalTitle": "আপনি কী দেখতে বা ডাউনলোড করতে চান?",
+      "searchButton1Text": "মুভির ডাউনলোড",
+      "telegramUrl": "https://t.me/download_apk_app",
+      "musicPageAd": {
+        "scriptCode2": "",
+        "active": true,
+        "scriptCode": "<script>\n  atOptions = {\n    'key' : '911ee250303f0d466e6e2cab58b077e0',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/911ee250303f0d466e6e2cab58b077e0\"></script>",
+        "scriptCode1": "<script>\n  atOptions = {\n    'key' : '911ee250303f0d466e6e2cab58b077e0',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/911ee250303f0d466e6e2cab58b077e0\"></script>"
+      },
+      "apkDownloadUrl": "https://tinyurl.com/nhhvmavu",
+      "directAdLink": "",
+      "deletedSeriesIds": [
+        "series-kgf-saga"
+      ],
+      "seriesPlayerAd": {
+        "popupScriptCode": "<script data-cfasync=\"false\" src=\"https://bauval.org/14/d5971812e8228bafc23fefa5e2dcedb5\"></script>",
+        "bannerScriptCode": "<script>\n  atOptions = {\n    'key' : '280410b8223e51dae425f09c7a2f0eb1',\n    'format' : 'iframe',\n    'height' : 60,\n    'width' : 468,\n    'params' : {}\n  };\n</script>\n<script src=\"https://brijmohan.org/22/280410b8223e51dae425f09c7a2f0eb1\"></script>",
+        "active": true
+      },
+      "noticeBanner": "🎬 Welcome to FlickCove! All Latest Movies available in 1080p, 720p & 480p.",
+      "telegramLabel": "Telegram",
+      "forceApkUpdate": false,
+      "quickBox1Text": "Tanning movie",
+      "customAdCode": "",
+      "adminPasswordHash": "6436661e0985211a34d0f990428434f9d9f6ada1ca74e3d1309b47d5815d3b0d",
+      "deletedAppIds": [
+        "app-google",
+        "app-facebook",
+        "app-instagram",
+        "game-na33",
+        "game-ace67",
+        "game-777bd",
+        "game-pkpk88-earn",
+        "game-q880-507"
+      ],
+      "quickBox2Text": "18+",
+      "contactUrl": "https://t.me/download_apk_app",
+      "sponsored2": {
+        "url": "#",
+        "tag": "Fast Cloud",
+        "active": false,
+        "title": "SPONSORED"
+      },
+      "shareInviteUrl": "https://tinyurl.com/nhhvmavu",
+      "appLogoUrl": "https://i.ibb.co/Fqs3RwWH/file-00000000bf7881f4911ee0ce9ad5fa1e.png",
+      "quickBox2Active": true,
+      "downloadPageAd": {
+        "active": true,
+        "count": 5,
+        "scriptCode": "<script>\n  atOptions = {\n    'key' : '911ee250303f0d466e6e2cab58b077e0',\n    'format' : 'iframe',\n    'height' : 250,\n    'width' : 300,\n    'params' : {}\n  };\n</script>\n<script src=\"https://bauval.org/22/911ee250303f0d466e6e2cab58b077e0\"></script>"
+      }
+    }
+  ],
+  "announcements": [],
+  "sponsored": [],
+  "apk_analytics": [
+    {
+      "id": "summary",
+      "activeDevices": 2,
+      "totalDownloads": 12,
+      "lastUpdated": "2026-11-07T09:35:03.231Z",
+      "totalDevices": 2
+    }
+  ],
+  "installed_devices": [
+    {
+      "id": "fc_evp5fl_mw0she78",
+      "lastSeen": "2026-11-07T09:35:03.231Z",
+      "language": "en-US",
+      "installedAt": "2026-11-03T14:34:45.671Z",
+      "deviceId": "fc_evp5fl_mw0she78",
+      "deviceModel": "Android Phone",
+      "appVersion": "v2.1.0",
+      "platform": "PWA (Android)",
+      "screenResolution": "360x812",
+      "isApk": false,
+      "totalOpens": 214
+    },
+    {
+      "id": "fc_hwtrio_mw29strs",
+      "appVersion": "v2.1.0",
+      "deviceId": "fc_hwtrio_mw29strs",
+      "isApk": false,
+      "platform": "PWA (Android)",
+      "lastSeen": "2026-11-04T15:27:18.714Z",
+      "installedAt": "2026-11-04T15:27:18.714Z",
+      "deviceModel": "Android Phone",
+      "screenResolution": "360x812",
+      "totalOpens": 1,
+      "language": "en-US"
+    }
+  ]
+}
