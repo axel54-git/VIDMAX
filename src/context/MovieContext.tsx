@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useRef } from 'react';
 import { Movie, SiteSettings, MusicTrack, AppShortcut, Series, SeriesEpisode } from '../types';
 import { INITIAL_MOVIES, INITIAL_SETTINGS, INITIAL_MUSIC_TRACKS, INITIAL_APP_SHORTCUTS, INITIAL_SERIES } from '../initialData';
 import { db, auth, handleFirestoreError, OperationType } from '../firebase';
@@ -95,9 +95,10 @@ interface MovieContextType {
   deleteSeries: (id: string) => Promise<boolean>;
   seedDefaultSeries: () => Promise<void>;
 
-  // In-App Browser System (All links open inside app, no URL shown, web apps blocked)
+  // In-App Browser System (All links open inside app, or external browser when static hosted without proxy)
   inAppBrowserUrl: string | null;
   inAppBrowserTitle: string;
+  proxyAvailable: boolean;
   openInAppBrowser: (url: string, title?: string) => void;
   closeInAppBrowser: () => void;
 }
@@ -293,8 +294,25 @@ export const MovieProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   // In-App Browser State
   const [inAppBrowserUrl, setInAppBrowserUrl] = useState<string | null>(null);
   const [inAppBrowserTitle, setInAppBrowserTitle] = useState<string>('');
+  const proxyAvailableRef = useRef<boolean>(false);
+  const [proxyAvailable, setProxyAvailable] = useState<boolean>(false);
 
-  // All non-ad websites, downloaders, and pages run directly inside our app's in-app browser
+  useEffect(() => {
+    fetch('/api/proxy')
+      .then((res) => {
+        // Dev proxy returns 400 when ?url= is omitted; static SPA hosts return 200 index.html
+        const available = res.status === 400;
+        proxyAvailableRef.current = available;
+        setProxyAvailable(available);
+      })
+      .catch(() => {
+        proxyAvailableRef.current = false;
+        setProxyAvailable(false);
+      });
+  }, []);
+
+  // All non-ad websites, downloaders, and pages run inside in-app browser when supported,
+  // or open cleanly in browser when /api/proxy is unavailable (e.g. Cloudflare Workers / APK)
   const openInAppBrowser = (url: string, title?: string) => {
     if (!url || url === '#' || url.trim() === '') return;
 
@@ -305,7 +323,13 @@ export const MovieProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     }
 
     const lower = target.toLowerCase();
-    // Social apps and system schemes cannot run inside an iframe
+    const canEmbedDirectly =
+      lower.includes('videodownloader.site') ||
+      target.startsWith('/') ||
+      target.startsWith('http://localhost') ||
+      target.startsWith('https://localhost');
+
+    // Social apps, system schemes, or iframe-restricted sites without an active /api/proxy backend
     if (
       target.startsWith('tel:') || 
       target.startsWith('mailto:') || 
@@ -320,17 +344,21 @@ export const MovieProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       lower.includes('wa.me') ||
       lower.includes('whatsapp.com') ||
       lower.includes('facebook.com') ||
-      lower.includes('fb.me')
+      lower.includes('fb.me') ||
+      (!canEmbedDirectly && !proxyAvailableRef.current)
     ) {
-      const a = document.createElement('a');
-      a.href = target;
-      a.target = '_blank';
-      a.rel = 'noopener noreferrer';
-      document.body.appendChild(a);
-      a.click();
-      setTimeout(() => {
-        if (a.parentNode) document.body.removeChild(a);
-      }, 100);
+      const win = window.open(target, '_blank', 'noopener,noreferrer');
+      if (!win) {
+        const a = document.createElement('a');
+        a.href = target;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        document.body.appendChild(a);
+        a.click();
+        setTimeout(() => {
+          if (a.parentNode) document.body.removeChild(a);
+        }, 100);
+      }
       return;
     }
 
@@ -1175,6 +1203,7 @@ export const MovieProvider: React.FC<{ children: React.ReactNode }> = ({ childre
         // In-App Browser System
         inAppBrowserUrl,
         inAppBrowserTitle,
+        proxyAvailable,
         openInAppBrowser,
         closeInAppBrowser,
       }}

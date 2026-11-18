@@ -3,13 +3,15 @@ import { useMovieContext } from '../context/MovieContext';
 import { 
   X, 
   RotateCw, 
-  ArrowLeft
+  ArrowLeft,
+  ExternalLink
 } from 'lucide-react';
 
 export const InAppBrowserModal: React.FC = () => {
   const { 
     inAppBrowserUrl, 
     inAppBrowserTitle, 
+    proxyAvailable,
     closeInAppBrowser 
   } = useMovieContext();
 
@@ -54,7 +56,7 @@ export const InAppBrowserModal: React.FC = () => {
   // All other external sites (like tinyurl, grabvex, cloudflare workers, ad links) MUST be proxied
   // so that X-Frame-Options and Content-Security-Policy frame-ancestors are stripped!
   const shouldUseProxy = (url: string) => {
-    if (!url) return false;
+    if (!url || !proxyAvailable) return false;
     const lower = url.toLowerCase();
     if (lower.includes('videodownloader.site')) return false;
     if (url.startsWith('/') || url.startsWith('http://localhost') || url.startsWith('https://localhost')) return false;
@@ -96,8 +98,19 @@ export const InAppBrowserModal: React.FC = () => {
           </div>
         </div>
 
-        {/* Right Actions: Reload & Close */}
+        {/* Right Actions: Open External, Reload & Close */}
         <div className="flex items-center gap-1 shrink-0">
+          <a
+            href={inAppBrowserUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-1.5 rounded-xl text-slate-300 hover:text-emerald-400 hover:bg-slate-800 active:scale-95 transition-all cursor-pointer"
+            title="ব্রাউজারে খুলুন"
+            aria-label="Open in Browser"
+          >
+            <ExternalLink className="w-4 h-4 stroke-[2.3]" />
+          </a>
+
           <button
             onClick={handleReload}
             className={`p-1.5 rounded-xl text-slate-300 hover:text-white hover:bg-slate-800 active:scale-95 transition-all cursor-pointer ${
